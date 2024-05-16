@@ -79,6 +79,7 @@ class ChoosePlayer extends StatelessWidget {
                     borderRadius: BorderRadius.circular(7)),
                 onPressed: () {
                   Get.to(() => Home());
+                  controller.newGame();
                 },
                 color: context.theme.primaryColor,
                 height: 50,

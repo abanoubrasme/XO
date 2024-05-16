@@ -78,13 +78,5 @@ class Controller extends GetxController {
     update();
   }
 
-  winners(){
-    if(score1>score2){
-      return true;
-    }else if(score2>score1){
-      return false;
-    }else{
 
-    }
-  }
 }
